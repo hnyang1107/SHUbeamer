@@ -1,6 +1,6 @@
 # Shanghai University Presentation Starter Template
 
-SHUbeamer is a Latex starter template that will help SHUer make a better presentations.
+SHUbeamer is a LateX starter template that will help SHUer make a better presentations.
 
 ## Installation
 

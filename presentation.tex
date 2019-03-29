@@ -28,9 +28,24 @@
 %=================================================
 \usepackage[ruled, linesnumbered, vlined]{algorithm2e}
 \usepackage{epsfig, subfigure, amssymb, multirow, multicol, algorithmic, amsmath}
+\usepackage{graphicx}
 \usepackage{ctex} % 支持中文
 \newcommand*{\superscript}[1]{\ensuremath{^{\rm #1}}}
 \newcommand*{\subscript}[1]{\ensuremath{_{\rm #1}}}
+
+%==================================================
+% 在 section 页面分两列作为过渡
+%==================================================
+\AtBeginSection[]
+{
+    \begin{frame}[plain]
+    \large
+    \begin{multicols}{2}
+    \tableofcontents[currentsection]
+    \end{multicols}
+    % \tableofcontents[currentsection,hideallsubsections]
+    \end{frame}
+}
 
 %=================================================
 % thesis details (preamble)
@@ -40,16 +55,6 @@
 \date{10 Feb 2018}
 \institute{Department of Mathematics \\ Shanghai University}
 
-%=================================================
-% seting
-%=================================================
-\AtBeginSection[]
-{
-    \begin{frame}[plain]
-    \large
-    \tableofcontents[currentsection,hideallsubsections]
-    \end{frame}
-}
 
 %=================================================
 % start presentation

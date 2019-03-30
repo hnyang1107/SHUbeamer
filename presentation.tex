@@ -30,8 +30,12 @@
 \usepackage{epsfig, subfigure, amssymb, multirow, multicol, algorithmic, amsmath}
 \usepackage{graphicx}
 \usepackage{ctex} % 支持中文
+\usepackage{booktabs} % 绘制表格
 \newcommand*{\superscript}[1]{\ensuremath{^{\rm #1}}}
 \newcommand*{\subscript}[1]{\ensuremath{_{\rm #1}}}
+\usepackage[backend=bibtex,sorting=none]{biblatex}
+\addbibresource{mybib.bib} %BibTeX数据文件及位置
+\setbeamerfont{footnote}{size=\tiny}
 
 %==================================================
 % 在 section 页面分两列作为过渡

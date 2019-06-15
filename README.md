@@ -22,3 +22,5 @@ after `bibtex presentation.aux`
 
 <p align="center"><img src="https://hnyang.oss-cn-shanghai.aliyuncs.com/2019-03-30-073238.png"></p>
 
+or you can add citation by `\cite{*}`, where * is in `mybib.bib`
+
